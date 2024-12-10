@@ -16,7 +16,7 @@ const Hero = () => {
         />
         <h1 className="bold-52 lg:bold-88">Desert Mirage Camp</h1>
         <p className="regular-16 mt-6 text-gray-30 xl:max-w-[520px]">
-          Escape to the heart of Joshua Tree National Park at Desert Mirage Camp, where rugged landscapes, iconic Joshua Trees, and starlit skies await. Whether you're hiking, stargazing, or simply relaxing by the fire, our camp offers the perfect retreat for adventurers and nature lovers alike. Immerse yourself in the magic of the desert and experience a peaceful, unforgettable getaway under the shimmering desert sky.
+          Escape to the heart of Joshua Tree National Park at Desert Mirage Camp, where rugged landscapes, iconic Joshua Trees, and starlit skies await. Whether you are hiking, stargazing, or simply relaxing by the fire, our camp offers the perfect retreat for adventurers and nature lovers alike. Immerse yourself in the magic of the desert and experience a peaceful, unforgettable getaway under the shimmering desert sky.
         </p>
 
         <div className="my-11 flex flex-wrap gap-5">
@@ -34,8 +34,8 @@ const Hero = () => {
         </div>
 
         <div className="flex flex-col w-full gap-3 sm:flex-row">
-          <Button type="button" title="Download App" variant="btn_green" />
-          <Button type="button" title="How we work?" icon="/play.svg" variant="btn_white_text" />
+          <Button type="button" title="Download App" variant="btn_green" full={true} />
+          <Button type="button" title="How we work?" icon="/play.svg" variant="btn_white_text" full={true} />
         </div>
       </div>
 
